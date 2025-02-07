@@ -53,8 +53,8 @@ public class PracticeProblem {
 		System.out.print("Input an integer: ");
 		String num3;
 		num3 = in.nextLine();
-		num3 = (num3 + 3);
-		int result1 = Integer.parseInt(num3)/2;
+		num3 =(num3 + 3);
+		int result1 = Integer.parseInt(num3) + 2;
 		System.out.print((char)result1);
 		System.out.println();
 	}
@@ -65,15 +65,23 @@ public class PracticeProblem {
 		System.out.print("Input an integer: ");
 		String num4;
 		num4 = in.nextLine();
-		num4 = (num4 + 3);
+		num4 = (num4 + 1);
 		int result2 = Integer.parseInt(num4)/2;
-		System.out.print((char)result2);
+		System.out.print((double)result2);
 		System.out.println();
 		
 	}
 
 	public static void q6() {
 		//Write question 6 code here
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input a number: ");
+		String num5;
+		num5 = in.nextLine();
+		num5 = (1+ num5);
+		double result3 = Double.parseDouble(num5);
+		System.out.print((int)result3);
+		System.out.println();
 		
 	}
 
